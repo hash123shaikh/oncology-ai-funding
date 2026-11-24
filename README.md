@@ -3,7 +3,7 @@
 [![Monthly update](https://github.com/hash123shaikh/oncology-ai-funding/actions/workflows/monthly-update.yml/badge.svg)](https://github.com/hash123shaikh/oncology-ai-funding/actions/workflows/monthly-update.yml)
 ![Last updated](https://img.shields.io/badge/last%20updated-2026--11--24-blue)
 ![Agencies](https://img.shields.io/badge/agencies-51-green)
-![Live calls](https://img.shields.io/badge/live%20calls-116-orange)
+![Live calls](https://img.shields.io/badge/live%20calls-127-orange)
 
 A curated, **automatically updated** list of funding agencies and open calls for
 **AI / data-science research in oncology** (radiomics, imaging AI, digital pathology,
@@ -11,7 +11,7 @@ clinical AI, cancer informatics), with a focus on opportunities open to
 researchers in **India** and internationally.
 
 > 🔄 Refreshed on the **1st of every month** by a GitHub Action
-> ([`scripts/update.py`](scripts/update.py)). Last run: **2026-11-24 09:09 UTC**.
+> ([`scripts/update.py`](scripts/update.py)). Last run: **2026-11-24 09:26 UTC**.
 > Inspired by the [TMC CRS Research Funding Portal](https://tmc.gov.in/crs_web/CRS-Funding).
 
 **Legend:** 🎯 oncology + AI · 🎗️ oncology · 🤖 AI in health · ⏰ deadline within 30 days ·
@@ -27,7 +27,21 @@ researchers in **India** and internationally.
 
 ## 🆕 New this month
 
-_First run: everything below is the baseline. From next month, newly posted calls will show up here._
+11 opportunities appeared since the last update (full list in [`digests/2026-11.md`](digests/2026-11.md)).
+
+| Match | Opportunity | Source | Agency / ID | Deadline |
+|:-:|---|---|---|---|
+| 🎗️ | [open AACR John and Elizabeth Leonard Basic Cancer Research Fellowship](https://www.aacr.org/grants/aacr-john-and-elizabeth-leonard-basic-cancer-research-fellowship/) | American Association for Cancer Research (AACR) | American Association for Cancer Research (AACR) | — |
+| 🎗️ | [open AACR-Kids Beating Cancer Margaret Guedes Monosomy 7 Legacy Cancer Research Grant](https://www.aacr.org/grants/aacr-kids-beating-cancer-margaret-guedes-monosomy-7-legacy-cancer-research-grant/) | American Association for Cancer Research (AACR) | American Association for Cancer Research (AACR) | — |
+| 🎗️ | [open AACR-Male Breast Cancer Global Alliance-Daryl and Christine Soneral Innovation and Discovery Grant for Male Breast Cancer Research](https://www.aacr.org/grants/aacr-male-breast-global-alliance-innovation-and-discovery-grant-for-male-breast-cancer-research/) | American Association for Cancer Research (AACR) | American Association for Cancer Research (AACR) | — |
+|  | [CDMRP Announces $1.27 Billion, 34 Research Programs for Fiscal Year 2026](https://cdmrp.health.mil/pubs/press/2026/FY26_Appropriations) | Congressionally Directed Medical Research Programs (CDMRP, DoD) | Congressionally Directed Medical Research Programs (CDMRP, DoD) | — |
+|  | [Research Funding](https://www.aacr.org/professionals/research-funding/) | American Association for Cancer Research (AACR) | American Association for Cancer Research (AACR) | — |
+|  | [Upcoming Funding Opportunities](https://www.aacr.org/professionals/research-funding/funding-opportunities-under-development/) | American Association for Cancer Research (AACR) | American Association for Cancer Research (AACR) | — |
+|  | [Information for Current Grantees](https://www.aacr.org/professionals/research-funding/information-for-current-grantees/) | American Association for Cancer Research (AACR) | American Association for Cancer Research (AACR) | — |
+|  | [Research Training and Fellowships](https://www.aacr.org/professionals/research-funding/funded-research/research-training-and-fellowships/) | American Association for Cancer Research (AACR) | American Association for Cancer Research (AACR) | — |
+|  | [Independent Research Grants](https://www.aacr.org/professionals/research-funding/funded-research/independent-research-grants/) | American Association for Cancer Research (AACR) | American Association for Cancer Research (AACR) | — |
+|  | [Funding Partnerships](https://www.aacr.org/professionals/research-funding/partnering-with-the-aacr/funding-partnerships/) | American Association for Cancer Research (AACR) | American Association for Cancer Research (AACR) | — |
+|  | [Research Funding Impact](https://www.aacr.org/professionals/research-funding/grantees/) | American Association for Cancer Research (AACR) | American Association for Cancer Research (AACR) | — |
 
 ## 🇺🇸 Live US federal calls (Grants.gov)
 
@@ -167,6 +181,11 @@ Links that look like calls, grants or fellowships, scraped from each agency's fu
 - 🎯 [series of funding opportunities](https://www.cancer.gov/about-nci/organization/cssi/research/itcr/funding)
 
 </details>
+<details><summary><b>Congressionally Directed Medical Research Programs (CDMRP, DoD)</b> (1)</summary>
+
+- [CDMRP Announces $1.27 Billion, 34 Research Programs for Fiscal Year 2026](https://cdmrp.health.mil/pubs/press/2026/FY26_Appropriations)
+
+</details>
 <details><summary><b>UK Research & Innovation (UKRI / MRC)</b> (3)</summary>
 
 - [Sector transition: UKRI policy fellowships 2027](https://www.ukri.org/opportunity/sector-transition-ukri-policy-fellowships-2027/)
@@ -202,6 +221,20 @@ Links that look like calls, grants or fellowships, scraped from each agency's fu
 
 ### 🎗️ Cancer foundations & professional societies
 
+<details><summary><b>American Association for Cancer Research (AACR)</b> (10)</summary>
+
+- 🎗️ [open AACR John and Elizabeth Leonard Basic Cancer Research Fellowship](https://www.aacr.org/grants/aacr-john-and-elizabeth-leonard-basic-cancer-research-fellowship/)
+- 🎗️ [open AACR-Kids Beating Cancer Margaret Guedes Monosomy 7 Legacy Cancer Research Grant](https://www.aacr.org/grants/aacr-kids-beating-cancer-margaret-guedes-monosomy-7-legacy-cancer-research-grant/)
+- 🎗️ [open AACR-Male Breast Cancer Global Alliance-Daryl and Christine Soneral Innovation and Discovery Grant for Male Breast Cancer Research](https://www.aacr.org/grants/aacr-male-breast-global-alliance-innovation-and-discovery-grant-for-male-breast-cancer-research/)
+- [Research Funding](https://www.aacr.org/professionals/research-funding/)
+- [Upcoming Funding Opportunities](https://www.aacr.org/professionals/research-funding/funding-opportunities-under-development/)
+- [Information for Current Grantees](https://www.aacr.org/professionals/research-funding/information-for-current-grantees/)
+- [Research Training and Fellowships](https://www.aacr.org/professionals/research-funding/funded-research/research-training-and-fellowships/)
+- [Independent Research Grants](https://www.aacr.org/professionals/research-funding/funded-research/independent-research-grants/)
+- [Funding Partnerships](https://www.aacr.org/professionals/research-funding/partnering-with-the-aacr/funding-partnerships/)
+- [Research Funding Impact](https://www.aacr.org/professionals/research-funding/grantees/)
+
+</details>
 <details><summary><b>RSNA Research & Education Foundation</b> (4)</summary>
 
 - [Education Grants](https://www.rsna.org/research/funding-opportunities/education-grants)
@@ -242,7 +275,7 @@ Links that look like calls, grants or fellowships, scraped from each agency's fu
 | ✅ | [Anusandhan National Research Foundation (ANRF, ex-SERB)](https://www.anrf.gov.in/) | CRG, ECRG, PM ECRG, MATRICS, AI for Science missions | India |
 | 🔒 | [ANRF Online (proposal portal)](https://anrfonline.in/) | Live ANRF calls & deadlines | India |
 | ✅ | [Department of Science & Technology (DST)](https://dst.gov.in/call-for-proposals) ([home](https://dst.gov.in/)) | Calls for proposals, ICPS / cyber-physical systems, women scientists | India |
-| ✅ | [Ministry of Electronics & IT (MeitY) / IndiaAI Mission](https://indiaai.gov.in/) ([home](https://www.meity.gov.in/)) | Subsidised GPU compute, IndiaAI CoEs, healthcare AI applications | India |
+| 🔒 | [Ministry of Electronics & IT (MeitY) / IndiaAI Mission](https://indiaai.gov.in/) ([home](https://www.meity.gov.in/)) | Subsidised GPU compute, IndiaAI CoEs, healthcare AI applications | India |
 | ⚠️ | [Board of Research in Nuclear Sciences (BRNS / DAE)](https://www.brns.res.in/) | Radiation oncology, nuclear medicine, radiation biology | India |
 | ✅ | [Council of Scientific & Industrial Research (CSIR)](https://www.csirhrdg.res.in/) ([home](https://www.csir.res.in/)) | Extramural research, fellowships | India |
 | 🔒 | [Tata Memorial Centre – CRS Research Funding Portal (aggregator)](https://tmc.gov.in/crs_web/CRS-Funding) | Curated national & international oncology calls with deadlines | India |
@@ -255,7 +288,7 @@ Links that look like calls, grants or fellowships, scraped from each agency's fu
 | ✅ | [DBT/Wellcome Trust India Alliance](https://www.indiaalliance.org/) | Early / intermediate / senior fellowships, clinical & public-health research | India |
 | ✅ | [Indo-US Science & Technology Forum (IUSSTF)](https://www.iusstf.org/) | US–India joint centres, fellowships, US-India AI initiatives | Bilateral |
 | ✅ | [Indo-German Science & Technology Centre (IGSTC)](https://www.igstc.org/) | 2+2 industry-academia projects, health & AI | Bilateral |
-| ✅ | [Syngene / industry CSR research grants](https://www.syngeneintl.com/) | Early-career research grants | India |
+| 🔒 | [Syngene / industry CSR research grants](https://www.syngeneintl.com/) | Early-career research grants | India |
 
 ### 🌍 International: Government & intergovernmental
 
@@ -263,9 +296,9 @@ Links that look like calls, grants or fellowships, scraped from each agency's fu
 |:-:|---|---|---|
 | ✅ | [National Cancer Institute (NCI) Funding Opportunities](https://www.cancer.gov/grants-training/grants-funding/funding-opportunities) ([home](https://www.cancer.gov/)) | R01/R21/U01, imaging, cancer data science | USA |
 | ✅ | [NCI Informatics Technology for Cancer Research (ITCR)](https://itcr.cancer.gov/funding-opportunities) | AI / informatics tools for cancer research ⭐ | USA |
-| 🔒 | [NIH Guide for Grants & Contracts](https://grants.nih.gov/funding/searchguide/index.html) | All NIH NOFOs (incl. Bridge2AI, NIBIB AI) | USA |
+| ✅ | [NIH Guide for Grants & Contracts](https://grants.nih.gov/funding/searchguide/index.html) | All NIH NOFOs (incl. Bridge2AI, NIBIB AI) | USA |
 | ✅ | [Grants.gov (US federal search)](https://www.grants.gov/search-grants) | Queried via API every month (see "Live calls" above) | USA |
-| 🔒 | [Congressionally Directed Medical Research Programs (CDMRP, DoD)](https://cdmrp.health.mil/funding/) | Breast, prostate, lung, kidney, ovarian, rare cancers | USA |
+| ✅ | [Congressionally Directed Medical Research Programs (CDMRP, DoD)](https://cdmrp.health.mil/funding/) | Breast, prostate, lung, kidney, ovarian, rare cancers | USA |
 | ✅ | [ARPA-H](https://arpa-h.gov/explore-funding) | High-risk health tech, AI-enabled diagnostics | USA |
 | ✅ | [National Science Foundation (NSF)](https://www.nsf.gov/funding/opportunities) | Smart Health & Biomedical Research in the Era of AI (SCH) | USA |
 | ✅ | [EU Funding & Tenders Portal (Horizon Europe, EU Cancer Mission)](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home) | Queried via API every month (see "Live calls" above) | Europe |
@@ -285,9 +318,9 @@ Links that look like calls, grants or fellowships, scraped from each agency's fu
 |:-:|---|---|---|
 | ✅ | [Cancer Grand Challenges (CRUK + NCI)](https://www.cancergrandchallenges.org/) | Team awards up to £20M on bold cancer challenges | Global |
 | ✅ | [Cancer Research UK](https://www.cancerresearchuk.org/funding-for-researchers) | Project, programme, early-detection & data science awards | UK |
-| ⚠️ | [American Association for Cancer Research (AACR)](https://www.aacr.org/grants/) | Career development, research fellowships, team science | Global |
+| ✅ | [American Association for Cancer Research (AACR)](https://www.aacr.org/grants/) | Career development, research fellowships, team science | Global |
 | ✅ | [Conquer Cancer (ASCO Foundation)](https://www.conquer.org/research-grants/) | Young Investigator, Global Oncology YIA, International Innovation Grant | Global |
-| 🔒 | [Union for International Cancer Control (UICC)](https://www.uicc.org/) | Yamagiwa-Yoshida & technical fellowships | Global |
+| ✅ | [Union for International Cancer Control (UICC)](https://www.uicc.org/) | Yamagiwa-Yoshida & technical fellowships | Global |
 | ✅ | [Cancer Research Institute (CRI)](https://www.cancerresearch.org/) | Immuno-oncology; Clinical Innovator, Lloyd J. Old STAR | Global |
 | 🔒 | [Blood Cancer United (formerly LLS)](https://bloodcancerunited.org/research/grants) | Haematological cancers, SCOR, career development | Global |
 | ✅ | [RSNA Research & Education Foundation](https://www.rsna.org/research/funding-opportunities) | Radiology / imaging AI grants ⭐ (radiomics) | Global |

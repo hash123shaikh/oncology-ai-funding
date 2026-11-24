@@ -1181,6 +1181,23 @@
    "title": "Grand Challenges India (GCI)",
    "url": "https://birac.nic.in/grandchallengesindia"
   },
+  "web:https://cdmrp.health.mil/pubs/press/2026/FY26_Appropriations": {
+   "agency": "Congressionally Directed Medical Research Programs (CDMRP, DoD)",
+   "category": "intl_gov",
+   "deadline": "",
+   "external": false,
+   "first_seen": "2026-11-24",
+   "key": "web:https://cdmrp.health.mil/pubs/press/2026/FY26_Appropriations",
+   "last_seen": "2026-11-24",
+   "number": "",
+   "score": 0,
+   "section": "web",
+   "source": "Congressionally Directed Medical Research Programs (CDMRP, DoD)",
+   "status": "",
+   "tag": "",
+   "title": "CDMRP Announces $1.27 Billion, 34 Research Programs for Fiscal Year 2026",
+   "url": "https://cdmrp.health.mil/pubs/press/2026/FY26_Appropriations"
+  },
   "web:https://cihr-irsc.gc.ca/e/35273.html": {
    "agency": "Canadian Institutes of Health Research (CIHR)",
    "category": "intl_gov",
@@ -1299,6 +1316,176 @@
    "tag": "",
    "title": "Postdoctoral Fellowships",
    "url": "https://training.iarc.who.int/iarc-postdoctoral-fellowships/"
+  },
+  "web:https://www.aacr.org/grants/aacr-john-and-elizabeth-leonard-basic-cancer-research-fellowship/": {
+   "agency": "American Association for Cancer Research (AACR)",
+   "category": "foundations",
+   "deadline": "",
+   "external": false,
+   "first_seen": "2026-11-24",
+   "key": "web:https://www.aacr.org/grants/aacr-john-and-elizabeth-leonard-basic-cancer-research-fellowship/",
+   "last_seen": "2026-11-24",
+   "number": "",
+   "score": 2,
+   "section": "web",
+   "source": "American Association for Cancer Research (AACR)",
+   "status": "",
+   "tag": "🎗️",
+   "title": "open AACR John and Elizabeth Leonard Basic Cancer Research Fellowship",
+   "url": "https://www.aacr.org/grants/aacr-john-and-elizabeth-leonard-basic-cancer-research-fellowship/"
+  },
+  "web:https://www.aacr.org/grants/aacr-kids-beating-cancer-margaret-guedes-monosomy-7-legacy-cancer-research-grant/": {
+   "agency": "American Association for Cancer Research (AACR)",
+   "category": "foundations",
+   "deadline": "",
+   "external": false,
+   "first_seen": "2026-11-24",
+   "key": "web:https://www.aacr.org/grants/aacr-kids-beating-cancer-margaret-guedes-monosomy-7-legacy-cancer-research-grant/",
+   "last_seen": "2026-11-24",
+   "number": "",
+   "score": 2,
+   "section": "web",
+   "source": "American Association for Cancer Research (AACR)",
+   "status": "",
+   "tag": "🎗️",
+   "title": "open AACR-Kids Beating Cancer Margaret Guedes Monosomy 7 Legacy Cancer Research Grant",
+   "url": "https://www.aacr.org/grants/aacr-kids-beating-cancer-margaret-guedes-monosomy-7-legacy-cancer-research-grant/"
+  },
+  "web:https://www.aacr.org/grants/aacr-male-breast-global-alliance-innovation-and-discovery-grant-for-male-breast-cancer-research/": {
+   "agency": "American Association for Cancer Research (AACR)",
+   "category": "foundations",
+   "deadline": "",
+   "external": false,
+   "first_seen": "2026-11-24",
+   "key": "web:https://www.aacr.org/grants/aacr-male-breast-global-alliance-innovation-and-discovery-grant-for-male-breast-cancer-research/",
+   "last_seen": "2026-11-24",
+   "number": "",
+   "score": 2,
+   "section": "web",
+   "source": "American Association for Cancer Research (AACR)",
+   "status": "",
+   "tag": "🎗️",
+   "title": "open AACR-Male Breast Cancer Global Alliance-Daryl and Christine Soneral Innovation and Discovery Grant for Male Breast Cancer Research",
+   "url": "https://www.aacr.org/grants/aacr-male-breast-global-alliance-innovation-and-discovery-grant-for-male-breast-cancer-research/"
+  },
+  "web:https://www.aacr.org/professionals/research-funding/": {
+   "agency": "American Association for Cancer Research (AACR)",
+   "category": "foundations",
+   "deadline": "",
+   "external": false,
+   "first_seen": "2026-11-24",
+   "key": "web:https://www.aacr.org/professionals/research-funding/",
+   "last_seen": "2026-11-24",
+   "number": "",
+   "score": 0,
+   "section": "web",
+   "source": "American Association for Cancer Research (AACR)",
+   "status": "",
+   "tag": "",
+   "title": "Research Funding",
+   "url": "https://www.aacr.org/professionals/research-funding/"
+  },
+  "web:https://www.aacr.org/professionals/research-funding/funded-research/independent-research-grants/": {
+   "agency": "American Association for Cancer Research (AACR)",
+   "category": "foundations",
+   "deadline": "",
+   "external": false,
+   "first_seen": "2026-11-24",
+   "key": "web:https://www.aacr.org/professionals/research-funding/funded-research/independent-research-grants/",
+   "last_seen": "2026-11-24",
+   "number": "",
+   "score": 0,
+   "section": "web",
+   "source": "American Association for Cancer Research (AACR)",
+   "status": "",
+   "tag": "",
+   "title": "Independent Research Grants",
+   "url": "https://www.aacr.org/professionals/research-funding/funded-research/independent-research-grants/"
+  },
+  "web:https://www.aacr.org/professionals/research-funding/funded-research/research-training-and-fellowships/": {
+   "agency": "American Association for Cancer Research (AACR)",
+   "category": "foundations",
+   "deadline": "",
+   "external": false,
+   "first_seen": "2026-11-24",
+   "key": "web:https://www.aacr.org/professionals/research-funding/funded-research/research-training-and-fellowships/",
+   "last_seen": "2026-11-24",
+   "number": "",
+   "score": 0,
+   "section": "web",
+   "source": "American Association for Cancer Research (AACR)",
+   "status": "",
+   "tag": "",
+   "title": "Research Training and Fellowships",
+   "url": "https://www.aacr.org/professionals/research-funding/funded-research/research-training-and-fellowships/"
+  },
+  "web:https://www.aacr.org/professionals/research-funding/funding-opportunities-under-development/": {
+   "agency": "American Association for Cancer Research (AACR)",
+   "category": "foundations",
+   "deadline": "",
+   "external": false,
+   "first_seen": "2026-11-24",
+   "key": "web:https://www.aacr.org/professionals/research-funding/funding-opportunities-under-development/",
+   "last_seen": "2026-11-24",
+   "number": "",
+   "score": 0,
+   "section": "web",
+   "source": "American Association for Cancer Research (AACR)",
+   "status": "",
+   "tag": "",
+   "title": "Upcoming Funding Opportunities",
+   "url": "https://www.aacr.org/professionals/research-funding/funding-opportunities-under-development/"
+  },
+  "web:https://www.aacr.org/professionals/research-funding/grantees/": {
+   "agency": "American Association for Cancer Research (AACR)",
+   "category": "foundations",
+   "deadline": "",
+   "external": false,
+   "first_seen": "2026-11-24",
+   "key": "web:https://www.aacr.org/professionals/research-funding/grantees/",
+   "last_seen": "2026-11-24",
+   "number": "",
+   "score": 0,
+   "section": "web",
+   "source": "American Association for Cancer Research (AACR)",
+   "status": "",
+   "tag": "",
+   "title": "Research Funding Impact",
+   "url": "https://www.aacr.org/professionals/research-funding/grantees/"
+  },
+  "web:https://www.aacr.org/professionals/research-funding/information-for-current-grantees/": {
+   "agency": "American Association for Cancer Research (AACR)",
+   "category": "foundations",
+   "deadline": "",
+   "external": false,
+   "first_seen": "2026-11-24",
+   "key": "web:https://www.aacr.org/professionals/research-funding/information-for-current-grantees/",
+   "last_seen": "2026-11-24",
+   "number": "",
+   "score": 0,
+   "section": "web",
+   "source": "American Association for Cancer Research (AACR)",
+   "status": "",
+   "tag": "",
+   "title": "Information for Current Grantees",
+   "url": "https://www.aacr.org/professionals/research-funding/information-for-current-grantees/"
+  },
+  "web:https://www.aacr.org/professionals/research-funding/partnering-with-the-aacr/funding-partnerships/": {
+   "agency": "American Association for Cancer Research (AACR)",
+   "category": "foundations",
+   "deadline": "",
+   "external": false,
+   "first_seen": "2026-11-24",
+   "key": "web:https://www.aacr.org/professionals/research-funding/partnering-with-the-aacr/funding-partnerships/",
+   "last_seen": "2026-11-24",
+   "number": "",
+   "score": 0,
+   "section": "web",
+   "source": "American Association for Cancer Research (AACR)",
+   "status": "",
+   "tag": "",
+   "title": "Funding Partnerships",
+   "url": "https://www.aacr.org/professionals/research-funding/partnering-with-the-aacr/funding-partnerships/"
   },
   "web:https://www.cancer.gov/about-nci/organization/cssi/research/itcr/funding": {
    "agency": "NCI Informatics Technology for Cancer Research (ITCR)",
@@ -1832,6 +2019,10 @@
   {
    "date": "2026-11-24",
    "items": 116
+  },
+  {
+   "date": "2026-11-24",
+   "items": 127
   }
  ],
  "sources": {
@@ -1857,9 +2048,10 @@
   },
   "American Association for Cancer Research (AACR)": {
    "checked": "2026-11-24",
-   "error": "ConnectTimeout",
-   "http": null,
-   "status": "error"
+   "error": "",
+   "http": 200,
+   "redirected_to": "https://www.aacr.org/professionals/research-funding/current-funding-opportunities/",
+   "status": "ok"
   },
   "Anusandhan National Research Foundation (ANRF, ex-SERB)": {
    "checked": "2026-11-24",
@@ -1920,7 +2112,7 @@
    "checked": "2026-11-24",
    "error": "",
    "http": 200,
-   "status": "blocked"
+   "status": "ok"
   },
   "Conquer Cancer (ASCO Foundation)": {
    "checked": "2026-11-24",
@@ -2055,8 +2247,8 @@
   "Ministry of Electronics & IT (MeitY) / IndiaAI Mission": {
    "checked": "2026-11-24",
    "error": "",
-   "http": 200,
-   "status": "ok"
+   "http": 403,
+   "status": "blocked"
   },
   "NAIRR Pilot (US National AI Research Resource)": {
    "checked": "2026-11-24",
@@ -2074,8 +2266,9 @@
   "NIH Guide for Grants & Contracts": {
    "checked": "2026-11-24",
    "error": "",
-   "http": 403,
-   "status": "blocked"
+   "http": 200,
+   "redirected_to": "https://grants.nih.gov/funding/nih-guide-for-grants-and-contracts",
+   "status": "ok"
   },
   "NVIDIA Academic Grant Program": {
    "checked": "2026-11-24",
@@ -2116,8 +2309,8 @@
   "Syngene / industry CSR research grants": {
    "checked": "2026-11-24",
    "error": "",
-   "http": 200,
-   "status": "ok"
+   "http": 403,
+   "status": "blocked"
   },
   "Tata Memorial Centre – CRS Research Funding Portal (aggregator)": {
    "checked": "2026-11-24",
@@ -2134,8 +2327,8 @@
   "Union for International Cancer Control (UICC)": {
    "checked": "2026-11-24",
    "error": "",
-   "http": 406,
-   "status": "blocked"
+   "http": 200,
+   "status": "ok"
   },
   "V Foundation for Cancer Research": {
    "checked": "2026-11-24",
