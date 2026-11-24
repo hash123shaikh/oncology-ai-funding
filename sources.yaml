@@ -1,0 +1,254 @@
+# Curated funding sources for AI + oncology research.
+#
+# Each entry:
+#   name:      Full agency / programme name
+#   url:       Page where funding calls are listed (scraped monthly for new calls)
+#   home:      (optional) Agency homepage, shown in the directory
+#   region:    India | USA | Europe | UK | Global | Canada | Australia | Bilateral
+#   focus:     free-text tags shown in the directory
+#   scrape:    (optional, default true) set false if the site blocks bots;
+#              the link is then only health-checked
+#
+# To add a source: append an entry below and open a PR (or just commit).
+# The monthly GitHub Action picks it up automatically.
+
+categories:
+
+  - id: india_gov
+    title: "🇮🇳 India: Government"
+    sources:
+      - name: Indian Council of Medical Research (ICMR)
+        url: https://www.icmr.gov.in/
+        region: India
+        focus: Clinical & translational, cancer, extramural research, First-in-the-World challenge
+      - name: Department of Biotechnology (DBT)
+        url: https://dbtindia.gov.in/latest-announcement
+        home: https://dbtindia.gov.in/
+        region: India
+        focus: Biotech, cancer biology, Ramalingaswami/Janaki Ammal fellowships
+      - name: Biotechnology Industry Research Assistance Council (BIRAC)
+        url: https://birac.nic.in/cfp.php
+        home: https://birac.nic.in/
+        region: India
+        focus: BIG, SBIRI, translational / startup grants, medtech & AI diagnostics
+      - name: Anusandhan National Research Foundation (ANRF, ex-SERB)
+        url: https://www.anrf.gov.in/
+        region: India
+        focus: CRG, ECRG, PM ECRG, MATRICS, AI for Science missions
+      - name: ANRF Online (proposal portal)
+        url: https://anrfonline.in/
+        region: India
+        focus: Live ANRF calls & deadlines
+        scrape: false
+      - name: Department of Science & Technology (DST)
+        url: https://dst.gov.in/call-for-proposals
+        home: https://dst.gov.in/
+        region: India
+        focus: Calls for proposals, ICPS / cyber-physical systems, women scientists
+      - name: Ministry of Electronics & IT (MeitY) / IndiaAI Mission
+        url: https://indiaai.gov.in/
+        home: https://www.meity.gov.in/
+        region: India
+        focus: Subsidised GPU compute, IndiaAI CoEs, healthcare AI applications
+      - name: Board of Research in Nuclear Sciences (BRNS / DAE)
+        url: https://www.brns.res.in/
+        region: India
+        focus: Radiation oncology, nuclear medicine, radiation biology
+      - name: Council of Scientific & Industrial Research (CSIR)
+        url: https://www.csirhrdg.res.in/
+        home: https://www.csir.res.in/
+        region: India
+        focus: Extramural research, fellowships
+      - name: Tata Memorial Centre – CRS Research Funding Portal (aggregator)
+        url: https://tmc.gov.in/crs_web/CRS-Funding
+        region: India
+        focus: Curated national & international oncology calls with deadlines
+      - name: Department of Health Research (DHR)
+        url: https://dhr.gov.in/
+        region: India
+        focus: Health research schemes, HTA, fellowships (DHR)
+
+  - id: india_nongov
+    title: "🇮🇳 India: Non-government & bilateral"
+    sources:
+      - name: DBT/Wellcome Trust India Alliance
+        url: https://www.indiaalliance.org/
+        region: India
+        focus: Early / intermediate / senior fellowships, clinical & public-health research
+      - name: Indo-US Science & Technology Forum (IUSSTF)
+        url: https://www.iusstf.org/
+        region: Bilateral
+        focus: US–India joint centres, fellowships, US-India AI initiatives
+      - name: Indo-German Science & Technology Centre (IGSTC)
+        url: https://www.igstc.org/
+        region: Bilateral
+        focus: 2+2 industry-academia projects, health & AI
+      - name: Syngene / industry CSR research grants
+        url: https://www.syngeneintl.com/
+        region: India
+        focus: Early-career research grants
+        scrape: false
+
+  - id: intl_gov
+    title: "🌍 International: Government & intergovernmental"
+    sources:
+      - name: National Cancer Institute (NCI) Funding Opportunities
+        url: https://www.cancer.gov/grants-training/grants-funding/funding-opportunities
+        home: https://www.cancer.gov/
+        region: USA
+        focus: R01/R21/U01, imaging, cancer data science
+      - name: NCI Informatics Technology for Cancer Research (ITCR)
+        url: https://itcr.cancer.gov/funding-opportunities
+        region: USA
+        focus: AI / informatics tools for cancer research ⭐
+      - name: NIH Guide for Grants & Contracts
+        url: https://grants.nih.gov/funding/searchguide/index.html
+        region: USA
+        focus: All NIH NOFOs (incl. Bridge2AI, NIBIB AI)
+        scrape: false
+      - name: Grants.gov (US federal search)
+        url: https://www.grants.gov/search-grants
+        region: USA
+        focus: Queried via API every month (see "Live calls" above)
+        scrape: false
+      - name: Congressionally Directed Medical Research Programs (CDMRP, DoD)
+        url: https://cdmrp.health.mil/funding/
+        region: USA
+        focus: Breast, prostate, lung, kidney, ovarian, rare cancers
+      - name: ARPA-H
+        url: https://arpa-h.gov/explore-funding
+        region: USA
+        focus: High-risk health tech, AI-enabled diagnostics
+      - name: National Science Foundation (NSF)
+        url: https://www.nsf.gov/funding/opportunities
+        region: USA
+        focus: Smart Health & Biomedical Research in the Era of AI (SCH)
+      - name: EU Funding & Tenders Portal (Horizon Europe, EU Cancer Mission)
+        url: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home
+        region: Europe
+        focus: Queried via API every month (see "Live calls" above)
+        scrape: false
+      - name: European Research Council (ERC)
+        url: https://erc.europa.eu/apply-grant
+        region: Europe
+        focus: Starting / Consolidator / Advanced / PoC grants
+      - name: Marie Skłodowska-Curie Actions (MSCA)
+        url: https://marie-sklodowska-curie-actions.ec.europa.eu/calls
+        region: Europe
+        focus: Postdoctoral fellowships, doctoral networks, staff exchange
+      - name: UK Research & Innovation (UKRI / MRC)
+        url: https://www.ukri.org/opportunity/
+        region: UK
+        focus: MRC, EPSRC, Innovate UK – AI in health
+      - name: National Institute for Health and Care Research (NIHR)
+        url: https://www.nihr.ac.uk/researchers/funding-opportunities
+        region: UK
+        focus: Global Health Research (LMIC-eligible), AI in health
+      - name: Canadian Institutes of Health Research (CIHR)
+        url: https://cihr-irsc.gc.ca/e/193.html
+        region: Canada
+        focus: Cancer research institute, AI & health
+      - name: National Health and Medical Research Council (NHMRC)
+        url: https://www.nhmrc.gov.au/funding/find-funding
+        region: Australia
+        focus: Investigator, Ideas, MRFF grants
+      - name: International Agency for Research on Cancer (IARC / WHO)
+        url: https://www.iarc.who.int/
+        region: Global
+        focus: Postdoctoral fellowships, collaborative research
+      - name: Human Frontier Science Program (HFSP)
+        url: https://www.hfsp.org/funding
+        region: Global
+        focus: Research grants & fellowships (India is a member)
+      - name: EMBO
+        url: https://www.embo.org/funding/
+        region: Global
+        focus: Postdoc fellowships, scientific exchange grants
+
+  - id: foundations
+    title: "🎗️ Cancer foundations & professional societies"
+    sources:
+      - name: Cancer Grand Challenges (CRUK + NCI)
+        url: https://www.cancergrandchallenges.org/
+        region: Global
+        focus: Team awards up to £20M on bold cancer challenges
+      - name: Cancer Research UK
+        url: https://www.cancerresearchuk.org/funding-for-researchers
+        region: UK
+        focus: Project, programme, early-detection & data science awards
+      - name: American Association for Cancer Research (AACR)
+        url: https://www.aacr.org/grants/
+        region: Global
+        focus: Career development, research fellowships, team science
+      - name: Conquer Cancer (ASCO Foundation)
+        url: https://www.conquer.org/research-grants/
+        region: Global
+        focus: Young Investigator, Global Oncology YIA, International Innovation Grant
+      - name: Union for International Cancer Control (UICC)
+        url: https://www.uicc.org/
+        region: Global
+        focus: Yamagiwa-Yoshida & technical fellowships
+      - name: Cancer Research Institute (CRI)
+        url: https://www.cancerresearch.org/
+        region: Global
+        focus: Immuno-oncology; Clinical Innovator, Lloyd J. Old STAR
+      - name: Blood Cancer United (formerly LLS)
+        url: https://bloodcancerunited.org/research/grants
+        region: Global
+        focus: Haematological cancers, SCOR, career development
+      - name: RSNA Research & Education Foundation
+        url: https://www.rsna.org/research/funding-opportunities
+        region: Global
+        focus: Radiology / imaging AI grants ⭐ (radiomics)
+      - name: European Society for Radiotherapy & Oncology (ESTRO)
+        url: https://www.estro.org/
+        region: Europe
+        focus: Radiotherapy research grants & fellowships
+      - name: European Society for Medical Oncology (ESMO)
+        url: https://www.esmo.org/career-development
+        home: https://www.esmo.org/
+        region: Europe
+        focus: Clinical & translational research fellowships
+      - name: Wellcome
+        url: https://wellcome.org/research-funding/schemes
+        home: https://wellcome.org/
+        region: Global
+        focus: Discovery research, career development (India-eligible)
+      - name: Gates Foundation – Grand Challenges
+        url: https://gcgh.grandchallenges.org/
+        region: Global
+        focus: Global health, AI for LMIC health systems
+      - name: Chan Zuckerberg Initiative (CZI)
+        url: https://chanzuckerberg.com/science/
+        region: Global
+        focus: Open-source science software, imaging, biohub
+      - name: V Foundation for Cancer Research
+        url: https://www.v.org/
+        region: USA
+        focus: Translational & data-science cancer grants
+
+  - id: ai_compute
+    title: "🤖 AI, compute & tech-industry programmes"
+    sources:
+      - name: NVIDIA Academic Grant Program
+        url: https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/
+        region: Global
+        focus: GPU hardware / cloud compute for AI research
+      - name: AWS Cloud Credit for Research
+        url: https://aws.amazon.com/government-education/research-and-technical-computing/cloud-credit-for-research/
+        region: Global
+        focus: Cloud compute credits
+        scrape: false
+      - name: Google Research – Academic programs
+        url: https://research.google/programs-and-events/
+        region: Global
+        focus: Research Scholar, Health AI collaborations
+      - name: Microsoft Research – Academic programs
+        url: https://www.microsoft.com/en-us/research/academic-programs/
+        region: Global
+        focus: AI for Good, Azure research credits
+        scrape: false
+      - name: NAIRR Pilot (US National AI Research Resource)
+        url: https://nairrpilot.org/
+        region: USA
+        focus: Free compute & datasets for AI research
