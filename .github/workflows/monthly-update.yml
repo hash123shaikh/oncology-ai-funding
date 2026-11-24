@@ -1,0 +1,46 @@
+name: Monthly funding update
+
+on:
+  schedule:
+    - cron: "0 3 1 * *"      # 03:00 UTC (08:30 IST) on the 1st of every month
+  workflow_dispatch:          # manual "Run workflow" button
+  push:
+    branches: [main]
+    paths: [sources.yaml]     # re-run when you add/edit an agency
+
+permissions:
+  contents: write
+
+concurrency:
+  group: funding-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Refresh funding list
+        run: python scripts/update.py
+
+      - name: Commit changes
+        run: |
+          git config user.name  "funding-tracker-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: monthly funding update $(date -u +%Y-%m-%d)"
+            git push
+          fi
